@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.face {
+  height: 600px;
+  width: 50%;
+  float: left;
+  background-size: cover;
+}
+
+#face1 {
+  background-image: url(image1.png);
+}
+
+#face2 {
+  background-image: url(image2.png);
+}
+
+.faces {
+  position: absolute;
+  left: 25%;
+}
+
+.text {
+  position: absolute;
+  padding: 20px;
+  top: 40%;
+  z-index: 3;
+}
+
+.text1 {
+  left: 50px;
+}
+
+.text2 {
+  right: 50px;
+}
